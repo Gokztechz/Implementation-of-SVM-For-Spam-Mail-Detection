@@ -15,10 +15,13 @@ To write a program to implement the SVM For Spam Mail Detection.
 
 ## Program:
 ```
+/*
 Program to implement the SVM For Spam Mail Detection..
-Developed by: REETHIKA.R
-RegisterNumber:  212219220042
-
+Developed by: R GOKUL SHARAN
+RegisterNumber:  212223040052
+*/
+```
+```
 import pandas as pd
 data=pd.read_csv("spam.csv",encoding='latin-1')
 data.head()
@@ -40,13 +43,7 @@ y_pred
 from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
-```
-```
-/*
-Program to implement the SVM For Spam Mail Detection..
-Developed by: R GOKUL SHARAN
-RegisterNumber:  212223040052
-*/
+
 ```
 
 ## Output:
