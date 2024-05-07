@@ -20,8 +20,7 @@ Program to implement the SVM For Spam Mail Detection..
 Developed by: R GOKUL SHARAN
 RegisterNumber:  212223040052
 */
-```
-```
+
 import pandas as pd
 data=pd.read_csv("spam.csv",encoding='latin-1')
 data.head()
